@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Warcraft';
+  src: url('/fonts/Warcraft.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.app-bar {
+  padding: 10px 5rem;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.app-bar .container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('/images/nav-bar-bg.jpg');
+  background-repeat: repeat-x;
+
+  align-items: center;
+}
+
+.app-bar .container .logo {
+  justify-self: center;
+  position: absolute;
+  left: 20px;
+}
+.logo .wow-name {
+  font-size: 36px;
+  color: aliceblue;
+  -webkit-text-stroke: 1px cornflowerblue;
+  position: absolute;
+  left: 78px;
+  bottom: -26px;
+}
+.logo .expansion-bg {
+  position: absolute;
+  left: 23px;
+  bottom: -55px;
+}
+.warcraft {
+  font-family: 'Warcraft';
+}
+main.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+  color: #ebdec2;
+}
