@@ -42,12 +42,12 @@ body {
   -webkit-text-stroke: 1px cornflowerblue;
   position: absolute;
   left: 78px;
-  bottom: -26px;
+  bottom: -24px;
 }
 .logo .expansion-bg {
   position: absolute;
   left: 23px;
-  bottom: -55px;
+  bottom: -51px;
 }
 .warcraft {
   font-family: 'Warcraft';
