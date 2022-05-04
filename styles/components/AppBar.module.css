@@ -1,0 +1,48 @@
+.app-bar {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 300px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+.menu {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  margin: 0%;
+
+  background-color: var(--base-bg);
+  color: var(--text-color);
+
+  border-radius: 30px;
+}
+
+.menu .menu-item {
+  list-style: none;
+  padding: 0 1rem;
+
+  font-size: 40px;
+}
+
+.menu .menu-item a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.selected,
+.selected a,
+.selected a:visited {
+  color: var(--text-color-hover);
+}
+
+.menu .menu-item:hover a {
+  color: var(--text-color-hover);
+}
